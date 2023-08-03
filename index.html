@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<form id="form" class="form">
+    <h1 class="form-title">REGISTRATION FORM</h1>
+
+    <div class="form-container">
+        <label for="username">Username</label>
+        <input type="text"
+                id="username"
+                name="username"
+                class="input"
+                />
+        <small class="error">Error Message</small>
+    </div>
+
+    <div class="form-container">
+        <label for="email">Email</label>
+        <input type="text" 
+                id="email" 
+                name="email" 
+                class="input" 
+                />
+            
+        <small class="error">Error Message</small>
+    </div>
+
+    <div class="form-container">
+        <label for="password">Password</label>
+        <input type="password" 
+                id="password" 
+                name="password" 
+                class="input" 
+                
+                />
+        <small class="error">Error Message</small>
+    </div>
+
+    <div class="form-container">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password"
+                id="confirm-password" name="confirm-password" 
+                class="input"
+                
+                />
+        <small class="error">Error Message</small>
+    </div>
+
+    <input 
+    type="submit" 
+    value="Submit"
+    class="btn-submit"
+    />
+
+
+</form>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
